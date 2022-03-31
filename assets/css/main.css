@@ -5233,6 +5233,51 @@ a img {
     margin-right: 5px
 }
 
+
+
+
+#tp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto
+}
+
+@media only screen and (min-width:550px) {
+    #tp {
+        width: 80%
+    }
+}
+
+.user-tp {
+    margin: 20px auto
+}
+
+.user-tp img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px
+}
+
+.user-tp h5 {
+    margin: 0
+}
+
+.user-tp li {
+    color: #1488CC;
+    font-size: 1.1rem
+}
+
+.user-tp p {
+    margin-right: 5px
+}
+
+
+
+
+
 @media only screen and (min-width:550px) {
     .contents {
         margin-left: 0;
