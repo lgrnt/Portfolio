@@ -5106,6 +5106,43 @@ a img {
 }
 
 
+#obj {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width:550px) {
+    #obj {
+        width: 80%
+    }
+}
+
+.user-obj {
+    margin: 20px auto
+}
+
+.user-obj img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px
+}
+
+.user-obj h5 {
+    margin: 0
+}
+
+.user-obj li {
+    color: #1488CC;
+    font-size: 1.1rem
+}
+
+.user-obj p {
+    margin-right: 5px
+}
 
 
 
@@ -5463,7 +5500,7 @@ a img {
   #conference-timeline .conference-center-line {
     position: absolute;
     width: 5px;
-    height: 64%;
+    height: 52%;
     top: 0;
     left: 50%;
     margin-left: -2px;
